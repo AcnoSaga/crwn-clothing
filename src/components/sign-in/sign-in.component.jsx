@@ -29,7 +29,7 @@ export class SignIn extends Component {
 
 	render() {
 		return (
-			<form className="sign-in">
+			<div className="sign-in">
 				<h2>I already have an account</h2>
 				<span>Sign in with your email and password</span>
 
@@ -57,7 +57,7 @@ export class SignIn extends Component {
 						</CustomButton>
 					</div>
 				</form>
-			</form>
+			</div>
 		);
 	}
 }
