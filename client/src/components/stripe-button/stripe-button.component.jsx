@@ -13,6 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
 			method: 'POST',
 			data: {
 				amount: priceForStripe,
+				description: 'Clothing items',
 				token,
 			},
 		})
